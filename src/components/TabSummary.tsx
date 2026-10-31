@@ -81,7 +81,7 @@ export const TabSummary: React.FC<TabSummaryProps> = ({
             </h1>
           </div>
           <p className="text-xs text-[#888888] mt-1">
-            Dynamic透视视角: Automatic zero-refresh bi-weekly aggregation by Client & Billing Period from operations log.
+            Dynamic Pivot Perspective: Automatic zero-refresh bi-weekly aggregation by Client &amp; Billing Period from operations log.
           </p>
         </div>
         <div className="bcs-pill bcs-pill-normal">

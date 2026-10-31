@@ -53,7 +53,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
     {
       id: '02_summary',
       label: '02_Bi-weekly Summary',
-      sub: 'Revenue 看板',
+      sub: 'Revenue Dashboard',
       icon: BarChart3,
     },
     {
@@ -74,16 +74,24 @@ export const Sidebar: React.FC<SidebarProps> = ({
       {/* Brand Header */}
       <div className="p-5 border-b border-[#E8E8E6]">
         <div className="flex items-start gap-3">
-          <div className="w-9 h-9 rounded-lg bg-[#051C2C] text-white flex items-center justify-center shrink-0 shadow-sm mt-0.5">
+          <div className="w-10 h-10 rounded-lg bg-[#051C2C] text-white flex items-center justify-center shrink-0 shadow-sm mt-0.5">
             <Package className="w-5 h-5 text-[#2251FF]" />
           </div>
           <div className="flex-1 min-w-0">
-            <h1 className="font-heading text-base font-bold text-[#051C2C] leading-snug tracking-tight">
-              Warehouse Billing Control System
+            <div className="text-[10px] font-bold tracking-wider uppercase text-[#888888] mb-0.5">
+              Brand
+            </div>
+            <h1 className="font-heading text-lg font-bold text-[#051C2C] leading-tight tracking-tight">
+              Theseus Workshop
             </h1>
-            <p className="text-[11px] font-semibold text-[#2251FF] tracking-wide mt-0.5 uppercase">
-              Excel Toolkit
-            </p>
+            <div className="mt-1.5 pt-1.5 border-t border-[#E8E8E6]">
+              <div className="text-xs font-semibold text-[#051C2C] leading-snug">
+                Warehouse Billing Control System
+              </div>
+              <div className="text-[10px] font-semibold text-[#2251FF] tracking-wide mt-0.5 uppercase">
+                Excel Toolkit &amp; Invoice Engine
+              </div>
+            </div>
           </div>
         </div>
         <div className="mt-3 pt-2.5 border-t border-[#E8E8E6]/60 flex items-center justify-between text-[11px] text-[#888888]">
@@ -209,11 +217,16 @@ export const Sidebar: React.FC<SidebarProps> = ({
             <Package className="w-4 h-4 text-[#2251FF]" />
           </div>
           <div>
-            <h1 className="font-heading text-sm font-bold text-[#051C2C] leading-tight truncate max-w-[200px] sm:max-w-none">
+            <div className="flex items-center gap-1.5">
+              <span className="font-heading text-sm font-bold text-[#051C2C] leading-tight">
+                Theseus Workshop
+              </span>
+              <span className="text-[9px] font-bold text-[#2251FF] uppercase tracking-wider bg-[#2251FF]/10 px-1 py-0.5 rounded">
+                Toolkit
+              </span>
+            </div>
+            <p className="text-[10px] text-[#051C2C]/75 font-medium leading-tight truncate max-w-[210px] sm:max-w-none">
               Warehouse Billing Control System
-            </h1>
-            <p className="text-[10px] font-semibold text-[#2251FF] uppercase tracking-wider">
-              Excel Toolkit
             </p>
           </div>
         </div>

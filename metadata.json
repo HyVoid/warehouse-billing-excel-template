@@ -1,6 +1,6 @@
 {
-  "name": "Warehouse Billing Control System — Excel Toolkit",
-  "description": "Warehouse Billing Control & Bi-weekly Invoice Management System",
+  "name": "Theseus Workshop — Warehouse Billing Control System",
+  "description": "Warehouse Billing Control & Bi-weekly Invoice Management System — An interactive Excel Toolkit by Theseus Workshop.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

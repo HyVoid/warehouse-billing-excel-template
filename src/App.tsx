@@ -94,13 +94,17 @@ export default function App() {
         {/* Desktop Top Worksheet Status Bar */}
         <header className="hidden lg:flex h-14 bg-white border-b border-[#E8E8E6] px-8 items-center justify-between no-print sticky top-0 z-20 shadow-xs">
           <div className="flex items-center gap-3">
-            <span className="text-xs font-semibold text-[#888888] uppercase tracking-wider">
-              Current Worksheet:
-            </span>
             <span className="font-heading text-sm font-bold text-[#051C2C]">
+              Theseus Workshop
+            </span>
+            <span className="text-[#E8E8E6]">|</span>
+            <span className="text-xs font-semibold text-[#888888] uppercase tracking-wider">
+              Warehouse Billing:
+            </span>
+            <span className="font-heading text-sm font-bold text-[#2251FF]">
               {activeTab === '00_settings' && '00_System Settings (Parameters & Tiers)'}
               {activeTab === '01_operations' && '01_Operations Log (Log & Calculation Engine)'}
-              {activeTab === '02_summary' && '02_Bi-weekly Summary (Revenue 看板)'}
+              {activeTab === '02_summary' && '02_Bi-weekly Summary (Revenue Dashboard)'}
               {activeTab === '03_invoice' && '03_Printable Invoice (Single-Page Invoice)'}
             </span>
           </div>

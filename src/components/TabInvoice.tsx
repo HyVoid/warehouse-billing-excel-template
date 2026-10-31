@@ -210,7 +210,7 @@ Total Line Items: ${invoiceEval.matchingOps.length}
                 LOGISTICS & WAREHOUSE INVOICE
               </h2>
               <span className="text-xs text-[#888888] font-semibold uppercase tracking-wider block">
-                Billing Control System — Formal Statement
+                Theseus Workshop — Warehouse Billing Control System
               </span>
             </div>
           </div>
